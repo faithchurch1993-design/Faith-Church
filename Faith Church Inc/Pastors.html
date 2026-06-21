@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pastors</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* Header */
+
+        .header {
+            background: #1e3a5f;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 35px;
+        }
+
+        /* Container */
+
+        .container {
+            padding: 40px;
+        }
+
+        /* Cards */
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px;
+            color: #1e3a5f;
+        }
+
+        .card p {
+            color: gray;
+        }
+
+        /* Social */
+
+        .social {
+            margin: 15px 0 20px;
+        }
+
+        .social a {
+            margin: 0 8px;
+            color: #1e3a5f;
+            font-size: 18px;
+        }
+
+        .social a:hover {
+            color: #2c5282;
+        }
+
+        /* Button */
+
+        .back-btn {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 12px;
+            background: #1e3a5f;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .back-btn:hover {
+            background: #2c5282;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>PASTORS & LEADERS</h1>
+        <p>Meet Our Church Pastors & Leaders</p>
+    </div>
+
+    <div class="container">
+
+        <div class="card-container">
+
+            <!-- Pastor 1 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Leticia E. Javier</h3>
+                <p>
+                    FOUNDER <br>
+                    REV/Senior PASTOR <br>
+                    Empowered Group
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 2 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Lucia Naviza</h3>
+                <p>Urdaneta LEAD PASTOR</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 3 -->
+            <div class="card">
+                <img src="Pastor.img/Dela Cruz.jpeg">
+                <h3>Jani Lou Dela Cruz</h3>
+                <p>Sablayan LEAD PASTOR</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 4 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Jessielita Barit</h3>
+                <p>
+                    Main Church PASTOR <br>
+                    San Narciso Main Church ADMINISTRATOR
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 5 -->
+            <div class="card">
+                <img src="Pastor.img/Mayor.jpg">
+                <h3>Santiago Mayor</h3>
+                <p>
+                    Main Church PASTOR <br>
+                    Emeritus Pastor <br>
+                    Christian In Action Group
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 6 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Rolando Esquejo</h3>
+                <p>
+                    Main Church PASTOR <br> Missionary Pastor
+                    <br> Watchmen Group 
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 7 -->
+            <div class="card">
+                <img src="Pastor.img/Devis.jpg">
+                <h3>Beatriz Devis</h3>
+                <p>
+                    Main Church PASTOR <br>
+                    Fearless Group
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 8 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Manuel Laudencia</h3>
+                <p>
+                    Main Church PASTOR <br>
+                    Emeritus Pastor
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 9 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Amalia Credo Gozun</h3>
+                <p>
+                    Main Church PASTOR <br>
+                    San Narciso Main Church Women's Ministry Pastor
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 10 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Jonnel Maglalang</h3>
+                <p>
+                    Main Church PASTOR <br>
+                    San Narciso Main Church Youth Leader <br>San Narciso Main Church Men's Ministry Pastor<br>
+                    Church Youth Pastor
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 11 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Soforonia Evangelista</h3>
+                <p>Main Church PASTOR</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 12 -->
+            <div class="card">
+                <img src="Pastor.img/Villanueva.jpg">
+                <h3>Althea Villanueva</h3>
+                <p>Main Church PASTOR <br>Worship Ministry Pastor</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Pastor 13 -->
+            <div class="card">
+                <img src="Pastor.img/">
+                <h3>Jun Naviza</h3>
+                <p>Urdaneta PASTOR</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="index.html" class="back-btn">Back to Home</a>
+
+    </div>
+
+</body>
+</html>
